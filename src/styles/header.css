@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Cerebri-Sans',sans-serif;
+    src: url(../fonts/CerebriSansPro-SemiBold.otf);
+}
+
+.h-wrapper {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cerebri-Sans';
+}
+
+.header {
+    width: 85vw;
+    height: 25vh;
+    display: flex;
+}
+
+.h-left {
+    width: 28vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.h-left li {
+    transition: all .2s linear;
+}
+
+.h-left li:hover {
+    color: dodgerblue;
+}
+
+
+.h-center {
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    width: 50%;
+    height: 65%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h-right {
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-social {
+    transition: all .4s linear;
+    margin-left: 1.5rem;
+}
+
+.icon-social:hover {
+    color:dodgerblue;
+}
+
+
+

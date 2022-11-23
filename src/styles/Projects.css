@@ -1,5 +1,50 @@
 
 .p-wrapper {
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.p-wrapper h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    width: 85vw;
+    height: auto;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 2rem;
+    
+    background-color:white;
+    width: 85vw;
+    
+}
+
+.p-info {
+    width: 30%;
+    height: 25rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.p-carousel {
+    width: 70%;
+    height: 25rem;
+    margin-left: 2.5rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
 }
